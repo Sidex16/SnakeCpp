@@ -179,7 +179,7 @@ int main() {
         thread th(display);
         input();
         logic();
-        delaySeconds(40);
+        delaySeconds(80);
         th.join();
     }
 
